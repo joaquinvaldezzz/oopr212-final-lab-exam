@@ -6,7 +6,7 @@ public class ProblemOne {
     DatabaseConnection root = new DatabaseConnection(
       "",
       "root",
-      "password1234"
+      "password1234" // Default password: `root`
     );
     root.connect();
 

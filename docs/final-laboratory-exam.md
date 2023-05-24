@@ -105,7 +105,7 @@ public class ProblemOne {
     DatabaseConnection connection = new DatabaseConnection(
       "Final_ExamDB",
       "root",
-      "password1234"
+      "password1234" // Default password: `root`
     );
     connection.connect();
 
